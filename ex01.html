@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<style>
+
+    .red{
+        color: darkred;
+    }
+</style>
+<h1>AAA</h1>
+<h1>BBB</h1>
+<h1>CCC</h1>
+
+<script>
+    $("h1").on("click",(e)=>{
+        $(e.target).addClass("red")
+    })
+
+</script>
+</body>
+</html>
